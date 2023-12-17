@@ -38,7 +38,7 @@ const HeroContent = () => {
               {" "}
               I'm Rahul{" "}
             </span>
-            
+            .
           </span>
         </motion.div>
 
