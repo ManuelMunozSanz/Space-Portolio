@@ -36,9 +36,9 @@ const HeroContent = () => {
             Hii
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              I'm Rahul{" "}
+              Im Rahul{" "}
             </span>
-            
+            </span>
         </motion.div>
 
         <motion.p
