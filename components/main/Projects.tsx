@@ -11,20 +11,21 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <a href="https://crossxclass.netlify.app">
+        <ProjectCard 
+          src="/crossclass2.png"
+          title="Crossclass"
+          description="An E-learning website with ."
+        /></a>
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/WIP.png"
+          title="Web In Post"
+          description="Crypto marketing Agency with Web 3 services."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/exploreindia2.png"
+          title="Explore India"
+          description="Indian tourism agency website ."
         />
       </div>
     </div>
@@ -32,3 +33,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
