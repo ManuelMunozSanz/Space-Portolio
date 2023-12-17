@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Fullstack Developer 
           </h1>
         </motion.div>
 
@@ -36,10 +36,9 @@ const HeroContent = () => {
             Hii
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              Im Rahul{" "}
+              I'm Rahul{" "}
             </span>
-            |
-          </span>
+            
         </motion.div>
 
         <motion.p
